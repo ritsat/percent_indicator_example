@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 CircularPercentIndicator(
-                  radius: 150,
+                  radius: 120,
                   lineWidth: 30,
                   backgroundColor: Colors.grey,
                   progressColor: Colors.red,
@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 50,
                 ),
                 LinearPercentIndicator(
-                  width: 200,
+                  width: 180,
                   lineHeight: 30,
                   backgroundColor: Colors.grey,
                   progressColor: Colors.blue,
